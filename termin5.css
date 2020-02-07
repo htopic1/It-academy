@@ -1,0 +1,247 @@
+h1
+{
+    margin: 0;
+}
+
+#prvi
+{
+    background-color: #d5ed00;
+    /*text-align: center;*/
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drugi
+{
+    height: 150px;
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p
+{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#treci
+{
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+.linkovi
+{
+    color: white;
+}
+
+.linkovi:hover
+{
+    background-color: gray;
+}
+
+#cetvrti
+{
+    display: flex;
+}
+#cetvrti1
+{
+    margin-top: 5px;
+    margin-right: 5px;
+    flex: 30%;
+    background-color: #f1f1f1;
+}
+#cetvrti2
+{
+    flex: 70%;
+    margin-top: 5px;
+}
+.cetvrti11
+{
+    padding: 5px;
+    background-color: gray;
+}
+
+.cetvrti21
+{
+    padding: 5px;
+    background-color: gray;
+}
+
+#peti
+{
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width:700px)
+{
+    .link
+    {
+        display: block;
+    }
+}
+
+.link
+{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button
+{
+    border: 0; 
+    outline: 0; 
+    margin-bottom: 5px; 
+    color: white; 
+    background-color: black; 
+    height: 45; 
+    width: 384px;
+}
+
+button:hover
+{
+    background-color: gray;
+}
+
+button:active
+{
+    box-shadow: 5px 5px 5px black;
+}
+
+#container
+{
+    background: blue;
+    padding: 10px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item
+{
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px;
+    background: orange;
+}
+
+@media screen and (max-width:700px)
+{
+    #container
+    {
+        background:red;
+    }
+}
+
+//eldar
+#header {
+    text-align: center;
+    background: #1abc9c;
+    padding: 50px;
+    color: white;
+}
+
+#menu {
+    background: #333;
+    color: white;
+    display: flex;
+    
+}
+
+#zuto {
+    background: #f5ed00;
+    color: blue;padding: 15px;
+    text-align: center;
+}
+
+body {
+    margin:0;
+
+}
+
+#main {
+    display: flex;
+}
+
+#lijevo {
+    background: #f1f1f1;
+    flex: 30%;
+    padding: 20px;
+}
+
+#desno {
+    flex: 70%;
+    padding: 20px;
+    
+}
+
+#slika {
+    background: #aaa;
+    height: 200px;
+    
+}
+
+a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #f1f1f1;
+    color:black;
+    text-decoration: none;
+}
+
+@media screen and (max-width:720px) {
+    #menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+#prvi {
+    background: #aaa;
+    padding: 30px;
+    margin-bottom: 5px;
+}
+
+#footer {
+    background: #aaa;
+    text-align: center;
+    height: 60px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width:720px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
